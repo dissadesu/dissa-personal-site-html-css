@@ -1,0 +1,288 @@
+body{
+    background-color: #E8FFFC;
+    font-family: 'Nunito', sans-serif;
+    margin:0px;
+}
+
+hr{
+    width: 20%;
+    border-style:dotted none none;
+    border-width: 8px;
+    border-color: #73A09A;
+}
+h1{
+    font-size: 5.625rem;
+    margin-bottom: 0px;
+    margin-top: 2px;
+    line-height: 2.75rem;
+    padding-top: 30px;
+    
+}
+.main-desc{
+    font-size: 2rem;
+    font-weight:200;
+}
+.topNav{
+    height: 30px;
+    text-align: left;
+    position: fixed;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+.inLineImg{
+    height: 40px;
+    width: 40px;
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.allTopNav{
+    position: fixed;
+    width: 100%;
+    height: 60px;
+    background-color:#466E68;
+    z-index: 10;
+}
+
+.inLineP-me{
+    position: absolute;
+    display:inline-block;
+    margin: 10px;
+    padding-bottom: 5px;
+    height: 50px;
+    width: 100px;
+}
+
+.inLineP-me a:link{
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.inLineP-me a:visited{
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.inLineP-sk{
+    position: absolute;
+    left: 150px;
+    display:inline;
+    margin: 10px;
+    padding-bottom: 5px;
+    width: 80px;
+}
+
+.inLineP-sk a:link{
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.inLineP-sk a:visited{
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.inLineP-gt{
+    position: absolute;
+    left: 240px;
+    display:inline-block;
+    margin: 10px;
+    padding-bottom: 5px;
+    height: 50px;
+    width: 100px;
+}
+
+.inLineP-gt a:link{
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.inLineP-gt a:visited{
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.mainPage{
+    top: 80px;
+    background-color: #F4FFFE;
+    height: 523px;
+    padding-top: 60px;
+    position: relative;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.mainImg{
+    margin-bottom:0px;
+    margin-top:0px;
+    box-align: center;
+    height:350px;
+}
+
+
+.mainStarImg{
+    position: absolute;
+    display: inline-block;
+    height:400px;
+    width: auto;
+}
+
+.starOne{
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    display:inline-block;
+    right: 300px;
+    top: 1px;
+}
+
+.starTwo{
+    width: 20px;
+    height: 20px;
+    display:inline-block;
+    position: absolute;
+    left: 280px;
+    top: 150px;   
+}
+
+.starThree{
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    display:inline-block;
+    right: 250px;
+    top: 60%;
+}
+
+.starFive{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    left: 300px;
+    top: 20px;
+}
+
+.starFour{
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    display:inline-block;
+    left: 200px;
+    top: 65%;
+}
+
+.starSix{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    display:inline-block;
+    right: 280px;
+    top: 40%;
+}
+
+.skills{
+    text-align:left;
+}
+
+.skills h2{
+    text-align: center;
+}
+
+.profile{
+    text-align:center;
+}
+.skill-row{
+    margin: 100px auto 100px auto;
+    width: 70%;
+}
+.skill-row h3{
+    color: #406C67;
+    font-weight:900;
+    margin-bottom: 0px;
+    text-align: justify;
+}
+
+.skill-row p{
+    margin-top: 3px;
+    text-align: justify;
+    line-height: 2;
+}
+
+.middle-container{
+    margin-top: 100px;
+}
+
+.middle-container h2{
+    font-size: 2em;
+    font-weight: 900;
+    margin-bottom:0px;
+    color: #405B57;
+   
+}
+
+.profile p{
+    margin-top:3px;
+}
+.profile-pic{
+    height: 150px;
+    width: 150px;
+}
+
+.skill-icon{
+    height: 150px;
+    width: 150px;
+    float: left;
+    margin-right: 30px;
+}
+
+.bottom-container{
+    text-align: center;
+    background-color:#466E68;
+    height: 50px;
+    text-align: left;
+}
+
+.bottom-container p{
+    padding-top: 15px;
+    padding-left: 5px;
+    color: white;
+    margin-left: 10px;
+    text-align: center;
+}
+
+.contact-me{
+    text-align: center;
+}
+
+.btn{
+    display: inline-block;
+    border: solid;
+    padding: 5px 10px 5px 10px;
+    border-radius: 10px;
+    background-color: #4B8079;
+    border-color: #4B8079;
+    margin: 5px;
+}
+
+.btn:link{
+    color: white;
+    text-decoration: none;
+}
+
+.btn:visited{
+    color: white;
+    text-decoration: none;
+}
+
+.btn:hover{
+    background-color: #73A09A;
+    border-color:#73A09A;
+    text-decoration: none;
+}
